@@ -1,0 +1,167 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 微软雅黑,arial;
+	font-size: 14px;
+	color:#666;
+}
+header{
+	width:100%;
+	height:50px;
+	border-bottom:1px solid #e2e2e2;
+}
+#guard-logo{
+	background: url(../iconlist_1.png) no-repeat -870px -100px;
+	width:160px;
+	height:30px;
+	margin-left:204px;
+	margin-top: 10px;
+	padding:0;
+}
+div>ul{
+	overflow: hidden;
+}
+div>ul>li{
+	list-style: none;
+	float:left;
+	padding-top:14px;
+}
+div>ul>li>#shouye{
+	margin-left:263px;	   
+}
+div>ul>li>#wenti{
+	border-bottom: 3px solid #f1595f;
+    transition: 1s border;
+    padding-bottom:9px;
+}
+div>ul>li>a{
+	text-decoration: none;
+	padding-left:15px;
+	padding-right:15px;
+}
+#shouye:hover,#jixing:hover,#weibo:hover,#luntan:hover{
+	border-bottom: 3px solid #f1595f;
+    transition: 1s border;
+    padding-bottom:9px;
+}
+#erweima{
+	background: url(../iconlist_2.png) no-repeat -1654px -294px;
+	width:180px;
+	height:215px;
+}
+a#android-download{
+	background: url(../iconlist_2.png) no-repeat -1650px -507px;
+	width:92px;
+	height:29px;
+	display: inline-block;
+	margin-top: -4px;
+	margin-left: -4px;
+	border:none;
+}
+a#expecting{
+	background: url(../iconlist_2.png) no-repeat -1650px -535px;
+	width:92px;
+	height:29px;
+	display: inline-block;
+	padding-left: 10px;
+	margin-top: -3px;
+	margin-left:-85px;
+	border:none;
+}
+/*****************************header结束*******************************/
+article>div{
+	width:830px;
+	height:120px;
+	border-bottom: 1px solid #e2e2e2;
+	margin-left:200px;
+}
+article>div>b{
+	display: inline-block;
+	width:170px;
+	height:50px;
+	background:url(../iconlist_4.png) no-repeat 0 -385px;
+	margin-top: 35px;
+}
+article>ul{	
+	 list-style: none;
+}
+article>ul>li{
+	border-bottom: 1px solid #e2e2e2;
+	width:870px;
+	height:70px;
+	margin-left: 260px;
+	padding: 50px 0 40px 40px;
+}
+article>ul>li>h4>b{
+	background: url(../iconlist_4.png) no-repeat -345px 0;
+	padding:3px 10px 3px 15px;	
+	margin-right: 10px;
+}
+article>ul>li>p>b{
+	background: url(../iconlist_4.png) no-repeat -345px -30px;	
+	padding:8px 10px 8px 15px;	
+	margin-right: 10px;
+}
+article>ul>li>h4{
+	padding-bottom: 30px;
+	font-size: 17px;
+    color: #313131;
+    font-weight: normal;
+}
+#solve{
+	height:35px;
+}
+#solve>p{
+	color: #a0a0a0;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 50px;
+}
+#solve>p>a{
+	color:red;
+	font-size: 12pt;
+}
+/***********************************article结束************************/
+footer#footer{
+	background-color: #363636;
+    border: 1px solid #363636;
+    color: #969696;
+    height:200px;
+}
+#footer>ul{
+	list-style: none;
+	padding-top:30px;
+	overflow: hidden;
+	margin-left:240px;
+}
+#footer>ul>li{
+	float:left;
+	margin:0 60px 0 60px;	
+}
+#footer>ul>li>h3{
+	font-size: 16pt;
+	margin-bottom: 15px;
+    font-weight: normal;
+}
+#footer>ul>li>p{
+	margin-bottom: 10px;
+}
+#footer>ul>li>#weiboo{
+	display: inline-block;
+	background: url(../iconlist_2.png) no-repeat 0 -580px;
+	width:215px;
+	height:120px;
+	margin-left:-50px;
+}
+#footer>ul>li>#weixin{
+	display: inline-block;
+	width:210px;
+	height:125px;
+	background: url(../iconlist_2.png) no-repeat -220px -580px;
+	margin-left: -100px;
+}
+#footer>div{
+	margin-left:550px;
+	display: inline-block;
+	margin-top: 10px;
+}
